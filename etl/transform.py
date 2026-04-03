@@ -231,8 +231,8 @@ def transform_to_star_schema(extracted: dict[str, pd.DataFrame]) -> dict[str, pd
 
         dim_source = (
             external_records[["source_name", "source_type", "source_url"]]
-            .drop_duplicates()
-            .sort_values(["source_type", "source_name"])
+            .sort_values(["source_type", "source_name", "source_url"])
+            .drop_duplicates(subset=["source_name", "source_type"], keep="first")
             .reset_index(drop=True)
             .assign(source_id=lambda df: df.index + 1)
             .rename(columns={"source_url": "base_url"})

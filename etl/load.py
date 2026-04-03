@@ -23,6 +23,8 @@ def _apply_schema(connection: sqlite3.Connection) -> None:
 
 def load_into_warehouse(transformed: dict) -> Path:
     WAREHOUSE_DB_PATH.parent.mkdir(parents=True, exist_ok=True)
+    if WAREHOUSE_DB_PATH.exists():
+        WAREHOUSE_DB_PATH.unlink()
     connection = sqlite3.connect(WAREHOUSE_DB_PATH)
     try:
         _apply_schema(connection)
