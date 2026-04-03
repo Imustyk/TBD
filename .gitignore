@@ -1,0 +1,13 @@
+.DS_Store
+.env
+__pycache__/
+*.pyc
+
+logs/
+models/
+
+data/raw/
+data/snapshots/
+data/staging/
+data/warehouse/
+data/*.db

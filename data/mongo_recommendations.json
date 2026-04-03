@@ -1,0 +1,110 @@
+[
+  {
+    "user_id": 1,
+    "favorite_category": "History",
+    "recommended_books": [
+      "Sapiens",
+      "The Silk Roads"
+    ],
+    "reason": "Readers with strong interest in History tend to finish these books."
+  },
+  {
+    "user_id": 2,
+    "favorite_category": "Fiction",
+    "recommended_books": [
+      "1984",
+      "The Book Thief"
+    ],
+    "reason": "Readers with strong interest in Fiction tend to finish these books."
+  },
+  {
+    "user_id": 3,
+    "favorite_category": "Business",
+    "recommended_books": [
+      "Atomic Habits",
+      "Deep Work"
+    ],
+    "reason": "Readers with strong interest in Business tend to finish these books."
+  },
+  {
+    "user_id": 4,
+    "favorite_category": "Fiction",
+    "recommended_books": [
+      "1984",
+      "The Book Thief"
+    ],
+    "reason": "Readers with strong interest in Fiction tend to finish these books."
+  },
+  {
+    "user_id": 5,
+    "favorite_category": "Business",
+    "recommended_books": [
+      "Atomic Habits",
+      "Deep Work"
+    ],
+    "reason": "Readers with strong interest in Business tend to finish these books."
+  },
+  {
+    "user_id": 6,
+    "favorite_category": "Business",
+    "recommended_books": [
+      "Atomic Habits",
+      "Deep Work"
+    ],
+    "reason": "Readers with strong interest in Business tend to finish these books."
+  },
+  {
+    "user_id": 7,
+    "favorite_category": "Business",
+    "recommended_books": [
+      "Atomic Habits",
+      "Deep Work"
+    ],
+    "reason": "Readers with strong interest in Business tend to finish these books."
+  },
+  {
+    "user_id": 8,
+    "favorite_category": "Science",
+    "recommended_books": [
+      "Clean Code",
+      "A Brief History of Time"
+    ],
+    "reason": "Readers with strong interest in Science tend to finish these books."
+  },
+  {
+    "user_id": 9,
+    "favorite_category": "History",
+    "recommended_books": [
+      "Sapiens",
+      "The Silk Roads"
+    ],
+    "reason": "Readers with strong interest in History tend to finish these books."
+  },
+  {
+    "user_id": 10,
+    "favorite_category": "History",
+    "recommended_books": [
+      "Sapiens",
+      "The Silk Roads"
+    ],
+    "reason": "Readers with strong interest in History tend to finish these books."
+  },
+  {
+    "user_id": 11,
+    "favorite_category": "Fiction",
+    "recommended_books": [
+      "1984",
+      "The Book Thief"
+    ],
+    "reason": "Readers with strong interest in Fiction tend to finish these books."
+  },
+  {
+    "user_id": 12,
+    "favorite_category": "History",
+    "recommended_books": [
+      "Sapiens",
+      "The Silk Roads"
+    ],
+    "reason": "Readers with strong interest in History tend to finish these books."
+  }
+]

@@ -1,0 +1,16 @@
+pandas
+sqlalchemy
+pymongo
+streamlit
+plotly
+matplotlib
+scikit-learn
+xgboost
+lightgbm
+joblib
+numpy
+requests
+beautifulsoup4
+lxml
+python-dotenv
+pyspark
